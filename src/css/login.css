@@ -1,0 +1,103 @@
+/* Background */
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #005f73, #0a9396, #94d2bd);
+  }
+  
+  .login-container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+  
+    align-items: center;
+    background-color: #1e293b;
+    border-radius: 10px;
+    padding: 50px 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title */
+  .login-title {
+    color:#1e293b;
+    margin-bottom: 50px;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:#94d2bd;
+
+  }
+  
+  /* Avatar */
+  .avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #94d2bd;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px 0px 10px 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: #334155;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    
+  }
+  
+  /* Actions */
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  
+  .actions label {
+    color: #94d2bd;
+  }
+  
+  .forgot-link {
+    color: #94d2bd;
+    text-decoration: none;
+  }
+  
+  .forgot-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button */
+  .login-btn {
+    width: 309px;
+    padding: 10px 15px;
+    background: #94d2bd;
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-btn:hover {
+    background: #0a9396;
+  }
+  
+  
